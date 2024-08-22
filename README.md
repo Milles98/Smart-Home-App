@@ -70,17 +70,17 @@ This usually indicates that a resource file (e.g., an image) cannot be found. En
 1. Fork the repository.
 2. Create a new branch:
    
-git checkout -b feature/your-feature-name
+    - git checkout -b feature/your-feature-name
 
-4. Make your changes and commit them:
+3. Make your changes and commit them:
    
-git commit -m "Add your commit message"
+    - git commit -m "Add your commit message"
 
-6. Push to the branch:
+4. Push to the branch:
    
-git push origin feature/your-feature-name
+    - git push origin feature/your-feature-name
 
-8. Open a pull request.
+5. Open a pull request.
 
     
     

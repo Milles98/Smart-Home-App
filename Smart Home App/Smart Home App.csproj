@@ -10,63 +10,85 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Images\cordinator_on.png">
+    <None Remove="Images\cordinator_on.png" />
+    <None Remove="Images\double-bed.png" />
+    <None Remove="Images\electric_off.png" />
+    <None Remove="Images\electric_on.png" />
+    <None Remove="Images\fridge_off.png" />
+    <None Remove="Images\fridge_on.png" />
+    <None Remove="Images\light_off.png" />
+    <None Remove="Images\light_on.png" />
+    <None Remove="Images\main-image-smart-home.jpg" />
+    <None Remove="Images\second-image-smart-home.jpg" />
+    <None Remove="Images\_add.png" />
+    <None Remove="Images\_chart.png" />
+    <None Remove="Images\_home2.png" />
+    <None Remove="Images\_home3.png" />
+    <None Remove="Images\_location.png" />
+    <None Remove="Images\_logout.png" />
+    <None Remove="Images\_settings.png" />
+    <None Remove="Images\_shield.png" />
+    <None Remove="Images\_users.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\cordinator_on.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\double-bed.png">
+    </Resource>
+    <Resource Include="Images\double-bed.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\electric_off.png">
+    </Resource>
+    <Resource Include="Images\electric_off.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\electric_on.png">
+    </Resource>
+    <Resource Include="Images\electric_on.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\fridge_off.png">
+    </Resource>
+    <Resource Include="Images\fridge_off.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\fridge_on.png">
+    </Resource>
+    <Resource Include="Images\fridge_on.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\light_off.png">
+    </Resource>
+    <Resource Include="Images\light_off.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\light_on.png">
+    </Resource>
+    <Resource Include="Images\light_on.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\main-image-smart-home.jpg">
+    </Resource>
+    <Resource Include="Images\main-image-smart-home.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\second-image-smart-home.jpg">
+    </Resource>
+    <Resource Include="Images\second-image-smart-home.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_add.png">
+    </Resource>
+    <Resource Include="Images\_add.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_chart.png">
+    </Resource>
+    <Resource Include="Images\_chart.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_home2.png">
+    </Resource>
+    <Resource Include="Images\_home2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_home3.png">
+    </Resource>
+    <Resource Include="Images\_home3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_location.png">
+    </Resource>
+    <Resource Include="Images\_location.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_logout.png">
+    </Resource>
+    <Resource Include="Images\_logout.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_settings.png">
+    </Resource>
+    <Resource Include="Images\_settings.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_shield.png">
+    </Resource>
+    <Resource Include="Images\_shield.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\_users.png">
+    </Resource>
+    <Resource Include="Images\_users.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Resource>
   </ItemGroup>
 
 </Project>

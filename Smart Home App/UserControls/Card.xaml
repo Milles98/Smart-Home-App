@@ -134,6 +134,7 @@
             </Image>
 
             <TextBlock VerticalAlignment="Bottom"
+                       Text="{Binding ElementName=card, Path=Title}"
                        FontWeight="SemiBold">
 
                 <TextBlock.Style>

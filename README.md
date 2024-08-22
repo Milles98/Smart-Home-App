@@ -56,7 +56,8 @@ git clone https://github.com/Milles98/smart-home-app.git
 
 #### XamlParseException: Cannot locate resource
 
-If you encounter an error similar to:System.Windows.Markup.XamlParseException: 'Provide value on 'System.Windows.Baml2006.TypeConverterMarkupExtension' threw an exception.'
+If you encounter an error similar to:
+    - System.Windows.Markup.XamlParseException: 'Provide value on 'System.Windows.Baml2006.TypeConverterMarkupExtension' threw an exception.'
 
 This usually indicates that a resource file (e.g., an image) cannot be found. Ensure that:
 - The file exists in the specified directory.

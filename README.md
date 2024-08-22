@@ -28,7 +28,7 @@ Click the blue link "SmartHomeApp_v1.zip
 
 1. Clone the repository:
 
-git clone https://github.com/Milles98/smart-home-app.git
+    - git clone https://github.com/Milles98/smart-home-app.git
 
 3. Open the solution in Visual Studio:
 

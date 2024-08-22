@@ -156,7 +156,7 @@
                                 <!--Cards-->
                                 <uc:Card  Grid.Row="0"
                                           Grid.Column="0"
-                                          Margin="-8 0 0 8"
+                                          Margin="0 0 8 8"
                                           Title="Refridgerator"
                                           ImageOff="/Images/fridge_off.png"
                                           ImageOn="/Images/fridge_on.png" />
@@ -197,7 +197,7 @@
                 </Border>
             </Border>
 
-            <!--Page 1-->
+            <!--Page 2-->
             <Border x:Name="page2"
                     Style="{StaticResource borderPage}">
                 <Border.RenderTransform>
@@ -212,94 +212,100 @@
                     </Border.Background>
 
                     <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="auto" />
-                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+
+
+                        <!--Add Buttons-->
+                        <uc:AddButton Title="Add New Device"
+                                      Margin="0 40 0 0" />
 
                         <!--Titles-->
                         <StackPanel VerticalAlignment="Center"
-                                    Margin="60 0 0 0">
-                            <TextBlock Text="Controlling"
-                                       Foreground="#ffffff"
-                                       FontSize="22" />
-
-                            <TextBlock Text="Lounge and Kitchen"
-                                       Foreground="#ffffff"
-                                       Margin="0 10"
-                                       FontSize="36"
-                                       FontWeight="Bold"
-                                       TextWrapping="Wrap" />
+                                    HorizontalAlignment="Center"
+                                    Margin="0 40 0 0">
 
                             <TextBlock Foreground="#ffffff"
+                                       TextAlignment="Center"
                                        FontSize="32">
-                    <Run Text="32" />
-                    <Run Text="°c"
-                                FontWeight="Thin"
-                                FontSize="26" />
+                                <Run Text="32" />
+                                <Run Text="°c"
+                                     FontWeight="Thin"
+                                     FontSize="26" />
                             </TextBlock>
+
 
                             <TextBlock Text="Celsius"
                                        Foreground="#ffffff"
                                        FontSize="12"
-                                       Margin="15 0 0 0" />
+                                       TextAlignment="Center" />
+
+                            <TextBlock Text="You Are Controlling"
+                                       Foreground="#ffffff"
+                                       FontSize="22"
+                                       TextAlignment="Center"
+                                       Margin="0 15 0 10" />
+
+                            <TextBlock Text="Main Lounge and Living Room"
+                                       Foreground="#ffffff"
+                                       FontSize="36"
+                                       FontWeight="Bold"
+                                       TextAlignment="Center" />
+
+
+
+
                         </StackPanel>
 
                         <!--Panels-->
-                        <StackPanel Grid.Column="1"
-                                    VerticalAlignment="Center"
-                                    Margin="0 0 50 0">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
-
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-
-                                <!--Cards-->
-                                <uc:Card  Grid.Row="0"
-                                          Grid.Column="0"
-                                          Margin="-8 0 0 8"
-                                          Title="Refridgerator"
-                                          ImageOff="/Images/fridge_off.png"
-                                          ImageOn="/Images/fridge_on.png" />
+                        <Grid Grid.Row="1"
+                              HorizontalAlignment="Center"
+                              Margin="0 0 0 30">
 
 
-                                <uc:Card  Grid.Row="0"
-                                          Grid.Column="1"
-                                          Margin="8 0 0 8"
-                                          Title="Temperature"
-                                          ImageOff="/Images/electric_off.png"
-                                          ImageOn="/Images/electric_on.png"
-                                          IsChecked="True" />
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!--Cards-->
+                            <uc:Card  Grid.Column="0"
+                                      IsHorizontal="True"
+                                      Margin="12 0 12 0"
+                                      Title="Refridgerator"
+                                      ImageOff="/Images/fridge_off.png"
+                                      ImageOn="/Images/fridge_on.png" />
 
 
-                                <uc:Card  Grid.Row="1"
-                                          Grid.Column="0"
-                                          Margin="0 8 8 0"
-                                          Title="Air Conditioner"
-                                          ImageOff="/Images/cordinator_on.png"
-                                          ImageOn="/Images/cordinator_on.png" />
+                            <uc:Card  Grid.Column="1"
+                                      IsHorizontal="True"
+                                      Margin="12 0 12 0"
+                                      Title="Temperature"
+                                      ImageOff="/Images/electric_off.png"
+                                      ImageOn="/Images/electric_on.png"
+                                      IsChecked="True" />
 
 
-                                <uc:Card  Grid.Row="1"
-                                          Grid.Column="1"
-                                          Margin="8 8 0 0"
-                                          Title="Lights"
-                                          ImageOff="/Images/light_off.png"
-                                          ImageOn="/Images/light_on.png" />
-                            </Grid>
+                            <uc:Card  Grid.Column="2"
+                                      IsHorizontal="True"
+                                      Margin="12 0 12 0"
+                                      Title="Air Conditioner"
+                                      ImageOff="/Images/cordinator_on.png"
+                                      ImageOn="/Images/cordinator_on.png" />
 
-                            <!--Add Buttons-->
-                            <uc:AddButton Title="Add New Room"
-                                          Grid.Column="1"
-                                          Margin="0 50 0 0"
-                                          HorizontalAlignment="Center" />
-                        </StackPanel>
+
+                            <uc:Card  Grid.Column="3"
+                                      IsHorizontal="True"
+                                      Margin="12 0 12 0"
+                                      Title="Lights"
+                                      ImageOff="/Images/light_off.png"
+                                      ImageOn="/Images/light_on.png" />
+
+                        </Grid>
                     </Grid>
                 </Border>
             </Border>

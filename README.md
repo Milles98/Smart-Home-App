@@ -5,7 +5,7 @@ Smart Home App is a WPF application designed to manage and control smart home de
 ## Table of Contents
 
 - [Installation .Exe File](#installation-exe-file)
-- [Installation Visual Studio 2022](#installation)
+- [Installation Visual Studio 2022](#installation-visual-studio-2022)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -15,7 +15,7 @@ Smart Home App is a WPF application designed to manage and control smart home de
 1. Go to release page:
 
 
-## Installation
+## Installation Visual Studio 2022
 
 1. Clone the repository:
 git clone https://github.com/yourusername/smart-home-app.git

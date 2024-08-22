@@ -4,9 +4,47 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Smart_Home_App"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        mc:Ignorable="d" 
+        Width="1080" 
+        Height="720"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Name="window">
 
-    </Grid>
+    <Border Background="#ffffff"
+            Padding="30"
+            CornerRadius="25"
+            MouseDown="Border_MouseDown"
+            MouseLeftButtonDown="Border_MouseLeftButtonDown">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!--Menu-->
+            <Border CornerRadius="10"
+                    Background="#3253f1">
+
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1"
+                                      BlurRadius="20"
+                                      Opacity="0.4"/>
+                </Border.Effect>
+
+                <Grid>
+                    <StackPanel>
+                        <Button>
+                            <Image />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+
+            </Border>
+
+        </Grid>
+    </Border>
 </Window>

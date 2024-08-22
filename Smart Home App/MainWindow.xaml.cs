@@ -20,5 +20,15 @@ namespace Smart_Home_App
 		{
 			InitializeComponent();
 		}
+
+		private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+		{
+
+		}
+
+		private void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+		{
+
+		}
 	}
 }

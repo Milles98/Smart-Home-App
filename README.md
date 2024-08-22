@@ -12,6 +12,14 @@ Smart Home App is a WPF application designed to manage and control smart home de
 ## Installation Exe File
 
 1. Go to release page:
+https://github.com/Milles98/Smart-Home-App/releases/tag/v1
+
+2. Navigate to below "Asset"
+Click the blue link "SmartHomeApp_v1.zip
+
+3. Open the zip folder
+4. Double click the .exe file
+5. Enjoy!
 
 
 ## Installation Visual Studio 2022

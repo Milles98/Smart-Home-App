@@ -75,8 +75,31 @@
                         </Button>
 
                     </StackPanel>
+
+                    <Button Style="{StaticResource menuButton}" 
+                            Margin="15 0 15 25"
+                            VerticalAlignment="Bottom">
+
+                        <Image Source="/Images/_logout.png" 
+                               Width="20"/>
+                    </Button>
                 </Grid>
 
+            </Border>
+
+            <!--Page 1-->
+            <Border x:Name="page1">
+                <Border.RenderTransform>
+                    <TranslateTransform Y="0"/>
+                </Border.RenderTransform>
+
+                <Border CornerRadius="25">
+                    <Border.Background>
+                        <ImageBrush Stretch="Fill"
+                                    Opacity="0.6"
+                                    ImageSource="/Images/main-image-smart-home.jpg"/>
+                    </Border.Background>
+                </Border>
             </Border>
 
         </Grid>

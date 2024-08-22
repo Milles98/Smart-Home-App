@@ -2,7 +2,7 @@
 
 Smart Home App is a WPF application designed to manage and control smart home devices.
 
-![Screenshot](images/Smart Home.png)
+![Screenshot](images/smart-home.png)
 
 ## Table of Contents
 

@@ -18,14 +18,31 @@
             <Style TargetType="Border">
                 <Setter Property="Width"
                         Value="150"/>
-                <Style.Triggers>
-                    <DataTrigger>
 
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding ElementName=card, Path=IsHorizontal}"
+                                 Value="True">
+                        <Setter Property="Width"
+                                Value="190"/>
+                    </DataTrigger>
+
+                    <DataTrigger Binding="{Binding ElementName=card, Path=IsHorizontal}"
+                                 Value="False">
+                        <Setter Property="Width"
+                                Value="150"/>
                     </DataTrigger>
                 </Style.Triggers>
             </Style>
         </Border.Style>
 
+        <Grid>
+            <TextBlock FontWeight="SemiBold"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left"
+                       Margin="0 5 0 0">
+
+            </TextBlock>
+        </Grid>
 
     </Border>
 

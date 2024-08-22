@@ -51,5 +51,4 @@ public partial class Card : UserControl
 	public static readonly DependencyProperty ImageOffProperty =
 		DependencyProperty.Register("ImageOff", typeof(ImageSource), typeof(Card));
 
-
 }

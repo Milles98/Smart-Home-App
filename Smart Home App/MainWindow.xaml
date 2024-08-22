@@ -88,7 +88,7 @@
             </Border>
 
             <!--Page 1-->
-            <Border x:Name="page1">
+            <Border x:Name="page1" Style="{StaticResource borderPage}">
                 <Border.RenderTransform>
                     <TranslateTransform Y="0"/>
                 </Border.RenderTransform>
@@ -99,6 +99,34 @@
                                     Opacity="0.6"
                                     ImageSource="/Images/main-image-smart-home.jpg"/>
                     </Border.Background>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Titles-->
+                        <StackPanel VerticalAlignment="Center"
+                                    Margin="60 0 0 0">
+                            <TextBlock Text="Controlling"
+                                       Foreground="#ffffff"
+                                       FontSize="22"/>
+
+                            <TextBlock Text="Lounge and Kitchen"
+                                       Foreground="#ffffff"
+                                       Margin="0 10"
+                                       FontSize="36"
+                                       FontWeight="Bold"
+                                       TextWrapping="Wrap"/>
+
+                            <TextBlock Foreground="#ffffff"
+                                       FontSize="32">
+                                <Run Text="32"/>
+                            </TextBlock>
+                        </StackPanel>
+
+                    </Grid>
                 </Border>
             </Border>
 

@@ -123,7 +123,15 @@
                             <TextBlock Foreground="#ffffff"
                                        FontSize="32">
                                 <Run Text="32"/>
+                                <Run Text="°c"
+                                     FontWeight="Thin"
+                                     FontSize="26"/>
                             </TextBlock>
+
+                            <TextBlock Text="Celsius"
+                                       Foreground="#ffffff"
+                                       FontSize="12"
+                                       Margin="15 0 0 0"/>
                         </StackPanel>
 
                     </Grid>

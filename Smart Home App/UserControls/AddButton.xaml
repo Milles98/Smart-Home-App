@@ -6,7 +6,7 @@
     <Button Width="300"
             VerticalAlignment="Top"
             HorizontalAlignment="Right"
-            Style="{StaticResource }">
+            Style="{StaticResource addButton}">
 
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="{Binding ElementName=addButton, Path=Title}"
@@ -14,8 +14,9 @@
 
             <Border Margin="20 0 0 0"
                     Width="37"
+                    Padding="10"
                     Background="#3256f1"
-                    HorizontalAlignment="Right">
+                    CornerRadius="50">
 
                 <Image Source="../Images/_add.png" />
             </Border>

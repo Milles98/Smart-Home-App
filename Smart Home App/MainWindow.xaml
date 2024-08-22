@@ -186,8 +186,10 @@
                                           ImageOff="/Images/light_off.png"
                                           ImageOn="/Images/light_on.png" />
                             </Grid>
-                        </StackPanel>
 
+                            <!--Add Buttons-->
+
+                        </StackPanel>
                     </Grid>
                 </Border>
             </Border>

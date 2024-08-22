@@ -33,7 +33,7 @@ public partial class Card : UserControl
 		set { SetValue(IsHorizontalProperty, value); }
 	}
 	public static readonly DependencyProperty IsHorizontalProperty =
-		DependencyProperty.Register("Title", typeof(bool), typeof(Card));
+		DependencyProperty.Register("IsHorizontal", typeof(bool), typeof(Card));
 
 	public ImageSource ImageOn
 	{
@@ -41,7 +41,7 @@ public partial class Card : UserControl
 		set { SetValue(ImageOnProperty, value); }
 	}
 	public static readonly DependencyProperty ImageOnProperty =
-		DependencyProperty.Register("Title", typeof(ImageSource), typeof(Card));
+		DependencyProperty.Register("ImageOn", typeof(ImageSource), typeof(Card));
 
 	public ImageSource ImageOff
 	{
@@ -49,7 +49,7 @@ public partial class Card : UserControl
 		set { SetValue(ImageOffProperty, value); }
 	}
 	public static readonly DependencyProperty ImageOffProperty =
-		DependencyProperty.Register("Title", typeof(ImageSource), typeof(Card));
+		DependencyProperty.Register("ImageOff", typeof(ImageSource), typeof(Card));
 
 
 }

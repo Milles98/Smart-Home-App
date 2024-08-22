@@ -30,9 +30,9 @@ git clone https://github.com/Milles98/smart-home-app.git
 
 3. Open the solution in Visual Studio:
 
-- cd smart-home-app
+    - cd smart-home-app
 
-- start SmartHomeApp.sln
+    - start SmartHomeApp.sln
 
 5. Build the solution:
 

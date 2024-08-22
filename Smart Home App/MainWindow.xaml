@@ -37,9 +37,43 @@
 
                 <Grid>
                     <StackPanel>
-                        <Button>
-                            <Image />
+
+                        <Button Style="{StaticResource menuButton}"
+                                Margin="15 40 15 20" Background="#ffffff">
+                            <Image Source="/Images/_home2.png" 
+                                   Width="20"/>
                         </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/double-bed.png" 
+                                   Width="20"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/_users.png" 
+                                   Width="20"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/_shield.png" 
+                                   Width="20"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/_location.png" 
+                                   Width="20"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/_chart.png" 
+                                   Width="20"/>
+                        </Button>
+
+                        <Button Style="{StaticResource menuButton}">
+                            <Image Source="/Images/_settings.png" 
+                                   Width="20"/>
+                        </Button>
+
                     </StackPanel>
                 </Grid>
 

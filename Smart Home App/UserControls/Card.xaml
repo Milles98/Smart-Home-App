@@ -81,10 +81,11 @@
 
             <CheckBox x:Name="toggle"
                       HorizontalAlignment="Right"
-                      IsChecked="True">
+                      IsChecked="{Binding ElementName=card, Path=IsChecked}">
 
                 <CheckBox.Style>
-                    <Style TargetType="CheckBox">
+                    <Style TargetType="CheckBox"
+                           BasedOn="{StaticResource toggleButton}">
                         <Setter Property="VerticalAlignment"
                                 Value="Top" />
                         <Style.Triggers>

@@ -120,6 +120,13 @@
                                 <Setter Property="Source"
                                         Value="{Binding ElementName=card, Path=ImageOn}" />
                             </DataTrigger>
+
+                            <DataTrigger Binding="{Binding ElementName=toggle, Path=IsChecked}"
+                                         Value="False">
+
+                                <Setter Property="Source"
+                                        Value="{Binding ElementName=card, Path=ImageOff}" />
+                            </DataTrigger>
                         </Style.Triggers>
                     </Style>
                 </Image.Style>
@@ -128,6 +135,25 @@
             <TextBlock VerticalAlignment="Bottom"
                        FontWeight="SemiBold">
 
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=toggle, Path=IsChecked}"
+                                         Value="True">
+
+                                <Setter Property="Foreground"
+                                        Value="#ffffff" />
+                            </DataTrigger>
+
+                            <DataTrigger Binding="{Binding ElementName=toggle, Path=IsChecked}"
+                                         Value="False">
+
+                                <Setter Property="Foreground"
+                                        Value="#2f2c37" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
             </TextBlock>
 
         </Grid>

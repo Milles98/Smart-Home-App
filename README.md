@@ -25,22 +25,29 @@ Click the blue link "SmartHomeApp_v1.zip
 ## Installation Visual Studio 2022
 
 1. Clone the repository:
+
 git clone https://github.com/Milles98/smart-home-app.git
 
-2. Open the solution in Visual Studio:
-cd smart-home-app
-start SmartHomeApp.sln
+3. Open the solution in Visual Studio:
 
-3. Build the solution:
+- cd smart-home-app
+
+- start SmartHomeApp.sln
+
+5. Build the solution:
+
     - In Visual Studio, go to `Build > Build Solution`.
 
 ## Usage
 
 1. Run the application:
+
     - Press `F5` or go to `Debug > Start Debugging`.
 
-2. Ensure all resources are correctly referenced:
+3. Ensure all resources are correctly referenced:
+   
     - Verify that all image files and other resources are in the correct directories.
+      
     - Check that the properties of these files are set to "Copy to Output Directory" if necessary.
 
 ## Troubleshooting
@@ -60,12 +67,18 @@ This usually indicates that a resource file (e.g., an image) cannot be found. En
 
 1. Fork the repository.
 2. Create a new branch:
+   
 git checkout -b feature/your-feature-name
-3. Make your changes and commit them:
+
+4. Make your changes and commit them:
+   
 git commit -m "Add your commit message"
-4. Push to the branch:
+
+6. Push to the branch:
+   
 git push origin feature/your-feature-name
-5. Open a pull request.
+
+8. Open a pull request.
 
     
     

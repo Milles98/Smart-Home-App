@@ -28,7 +28,7 @@
                     </DataTrigger>
 
                     <DataTrigger Binding="{Binding ElementName=toggle, Path=IsChecked}"
-                                 Value="True">
+                                 Value="False">
                         <Setter Property="Background"
                                 Value="#efefee" />
                     </DataTrigger>

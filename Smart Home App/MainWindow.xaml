@@ -159,6 +159,31 @@
                                           Title="Refridgerator"
                                           ImageOff="/Images/fridge_off.png"
                                           ImageOn="/Images/fridge_on.png" />
+
+
+                                <uc:Card  Grid.Row="0"
+                                          Grid.Column="1"
+                                          Margin="8 0 0 8"
+                                          Title="Temperature"
+                                          ImageOff="/Images/electric_off.png"
+                                          ImageOn="/Images/electric_on.png"
+                                          IsChecked="True" />
+
+
+                                <uc:Card  Grid.Row="1"
+                                          Grid.Column="0"
+                                          Margin="0 8 0 8"
+                                          Title="Air Conditioner"
+                                          ImageOff="/Images/cordinator_on.png"
+                                          ImageOn="/Images/cordinator_on.png" />
+
+
+                                <uc:Card  Grid.Row="1"
+                                          Grid.Column="1"
+                                          Margin="0 0 0 8"
+                                          Title="Lights"
+                                          ImageOff="/Images/light_off.png"
+                                          ImageOn="/Images/light_on.png" />
                             </Grid>
                         </StackPanel>
 
